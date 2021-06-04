@@ -15,36 +15,39 @@
 
 <body>
     <div class="container">
-        <div class="row bg-light d-flex justify-content-between">
-            <div class="col-2 pt-2 pl-3">
-                <span>Instagram</span>
-                <i class="fab fa-instagram"></i>
-            </div>
-            <div class="col"></div>
-            <div class="col-2 m-2 d-flex align-content-end flex-wrap">
-                <button type="button text-end" class="btn btn-success" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">
-                    Create a post
-                </button>
-                <div class="btn-group">
-                    <button class="btn dropdown-toggl ml-2" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        <i class="fas fa-cog"></i>
+        <section class="sticky-lg-top">
+            <div class="row bg-light d-flex justify-content-between">
+                <div class="col-2 pt-2 pl-3">
+                    <span>Instagram</span>
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <div class="col"></div>
+                <div class="col-2 m-2 d-flex align-content-end flex-wrap">
+                    <button type="button text-end" class="btn btn-success" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Create a post
                     </button>
-                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenu2">
-                        <li><button class="dropdown-item" type="button">Action</button></li>
-                        <li><button class="dropdown-item" type="button">Another action</button></li>
-                        <li><button class="dropdown-item" type="button">Something else here</button></li>
-                        <li><button class="dropdown-item" type="button">Sign out</button></li>
-                    </ul>
+                    <div class="btn-group">
+                        <button class="btn dropdown-toggl ml-2" type="button" id="dropdownMenu2"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-cog"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenu2">
+                            <li><button class="dropdown-item" type="button">Action</button></li>
+                            <li><button class="dropdown-item" type="button">Another action</button></li>
+                            <li><button class="dropdown-item" type="button">Something else here</button></li>
+                            <li><button class="dropdown-item" type="button">Sign out</button></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
+
+        </section>
         <div class="row">
             <div class="container">
                 <div class="row align-items-center">
                     <!-- <div class="col-2"></div> -->
-                    <div class="align-items-center">
+                    <div class="align-items-center p-0">
                         <ul class="nav nav-pills justify-content-center mb-3 " id="pills-tab" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="pills-home-tab" data-bs-toggle="pill"
@@ -81,7 +84,7 @@
                             <div class="tab-pane fade justify-content-center bg-light" id="pills-profile"
                                 role="tabpanel" aria-labelledby="pills-profile-tab">
                                 <div class="container-fluid">
-                                    <div class="container justify-content-center">
+                                    <div class="container-fluid justify-content-center">
                                         <div class="row" style="height: 20px"></div>
                                         <div class="row justify-content-center">
                                             <div class="col-4 bg-white">
@@ -90,8 +93,7 @@
                                                         <h4>Random Post</h4>
                                                         <span>12/05</span>
                                                     </div>
-                                                    <img src="https://picsum.photos/200"
-                                                        class="rounded mx-auto d-block bg-white" alt="">
+                                                    <img src="https://picsum.photos/200" class="img-fluid" alt="">
                                                     <div class="row justify-content-between pl-1 m-0 bg-white">
                                                         <span><strong>335 Likes</strong></span>
                                                     </div>
@@ -133,7 +135,7 @@
                                                         <span>12/05</span>
                                                     </div>
                                                     <img src="https://randomwordgenerator.com/img/picture-generator/54e6d5464f52ae14f1dc8460962e33791c3ad6e04e50744172297cdc9e48c3_640.jpg"
-                                                        class="rounded mx-auto d-block bg-white" alt="">
+                                                        class="img-fluid w-100" alt="">
                                                     <div class="row justify-content-between pl-1 m-0 bg-white">
                                                         <span><strong>335 Likes</strong></span>
                                                     </div>
